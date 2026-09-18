@@ -1,0 +1,38 @@
+.footer-propaganda {
+    display: flex;
+    justify-content: space-between;
+    background-color: #b74cd8;
+    height: 40vh;
+}
+.footer-propaganda h1 {
+    font-family: 'Tektur', cursive;
+    color: white;
+    font-size: 3rem;
+    margin-left: 20px;
+}
+
+.footer-propaganda{
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Tektur', cursive;
+    color: white;
+    font-size: 2rem;
+}
+.footer-propaganda button {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card-propaganda {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 36rem;
+}
