@@ -1,4 +1,9 @@
 .footer-propaganda {
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Tektur', cursive;
+    color: white;
+    font-size: 2rem;
     display: flex;
     justify-content: space-between;
     background-color: #b74cd8;
@@ -11,13 +16,11 @@
     margin-left: 20px;
 }
 
-.footer-propaganda{
-    border-radius: 10px;
-    align-items: center;
-    font-family: 'Tektur', cursive;
-    color: white;
-    font-size: 2rem;
+.footer-informaçoes {
+ background-color: black;
+ color: white;
 }
+
 .footer-propaganda button {
     background-color: #000000;
     color: #ffffff;
@@ -27,12 +30,12 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
 .card-propaganda {
     display: flex;
     justify-content: center; 
     align-items: center;     
     height: 100px;
     flex-direction: column;
-    text-align: center;
-    margin-left: 36rem;
+text-align: center;
 }
