@@ -6,7 +6,7 @@
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
-    background-color: #b74cd8;
+   background: linear-gradient(to right, #e07be4, #872aaf);
     height: 40vh;
 }
 .footer-propaganda h1 {
@@ -24,12 +24,14 @@
 .footer-propaganda button {
     background-color: #000000;
     color: #ffffff;
-    border-radius: 10px;
-    padding: 10px 20px;
+    border-radius: 6px;
+    padding: 20px 30px;
     font-size: 1rem;
     cursor: pointer;
     margin-top: 10px;
+    border: none;
 }
+
 
 .card-propaganda {
     display: flex;
@@ -116,5 +118,35 @@ nav li a:hover{
     margin-top: 20px;
     gap: 1rem;
 }
+.card-informaçoes{
+  display: flex;
+  gap: 12rem; 
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  list-style: none;
+}
+footer{
+    color: #fff;
+}
+.card-empresa{
+ padding: 1.25rem 10rem;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2rem;
 
-
+}
+hr{
+    border: 1px solid #9b9898;
+    margin: 0px 8rem;
+}
+.card-informaçoes li{
+    list-style: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}
