@@ -116,5 +116,46 @@ nav li a:hover{
     margin-top: 20px;
     gap: 1rem;
 }
+.conteudo {
+    color: #fff;
+    font-family: 'Tektur', cursive;
+}
+.card1, .card2, .card3, .card4 {
+    display: flex;
+    color: #fff;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 1rem;
+     align-items: center;
+     padding: 4rem;
+     
+}
+.txt1, .txt2, .txt3, .txt4 , .txt-tabela {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   padding: 4rem;
+   letter-spacing: 1.5px;
+}
+.conteudo img {
+    padding :1rem;
+    max-width: 720px;
+    height: auto;
+    border-radius: 2rem;
 
-
+}
+.card-tabela   {
+    display: flex;
+    color: #fff;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 1rem;
+     align-items: center;
+     padding: 4rem;
+}
+.conteudo h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #b74cd8;
+    letter-spacing: 2px;
+}
